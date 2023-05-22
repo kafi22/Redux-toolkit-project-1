@@ -10,7 +10,7 @@ const About = () => {
   return (
     <Container>
 
-      <h1 style={{color : 'red', textAlign : 'center'}}>This is about page</h1>
+      <h1 style={{color : 'red', textAlign : 'center', marginTop : '5rem'}}>This is about page</h1>
 
       <button className='  bg-dark text-white p-1' onClick={() => navigation('/', {replace : 'true'})} >back to home</button>
 
